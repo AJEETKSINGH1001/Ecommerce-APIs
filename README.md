@@ -40,7 +40,8 @@ fastapi\_ecommerce\_api/
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/myshop-api.git
+git clone https://github.com/AJEETKSINGH1001/Ecommerce-APIs.git
+
 cd myshop-api
 ````
 
