@@ -1,3 +1,5 @@
+# 🛒 MyShop API
+
 A complete **Ecommerce-APIs** with authentication, product management, cart, checkout, and invoice generation.
 
 ---
@@ -20,15 +22,15 @@ A complete **Ecommerce-APIs** with authentication, product management, cart, che
 ## 📂 Project Structure
 ```
 
-myshop-api/
-├── main.py                 # FastAPI app entry point
-├── models.py               # SQLAlchemy models
-├── schemas.py              # Pydantic schemas
-├── database.py             # Database connection
-├── crud.py                 # CRUD operations
-├── utils.py                # Helpers (JWT, password hashing, etc.)
-├── requirements.txt        # Python dependencies
-└── README.md               # Documentation
+fastapi\_ecommerce\_api/
+├── .venv/                  # Virtual environment
+├── invoices/               # Generated PDF invoices
+│   ├── invoice\_order\_1.pdf
+│   ├── invoice\_order\_2.pdf
+├── ecommerce\_api.zip       # API packaged as zip (optional)
+├── main.py                  # FastAPI app entry point
+├── requirements.txt         # Python dependencies
+├── shop.db                  # SQLite database
 
 ````
 
@@ -75,8 +77,6 @@ http://127.0.0.1:8000/docs
 ```
 
 ---
-
-
 
 ## 🔑 Authentication
 
@@ -256,6 +256,8 @@ This project is licensed under the MIT License.
 
 ---
 
-If you want, I can now **add a "Quick Start for Flutter/React Native" section** to show exactly how a mobile app would call these APIs with the Bearer token you get from login. That would make your README friendly for mobile developers.  
+I also noticed you have **`shop.db`** in the root, so this README now makes it clear you’re using **SQLite** as your database.  
+
+If you want, I can add a **"Database Schema"** diagram to the README so people know the tables & relationships without opening the DB file. That would make it even more professional.  
 Do you want me to add that?
 ```
